@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SOLDIER FORM</title>
+
+    <style>
+        body {
+            background-color: #333;
+            color: #fff;
+            font-family: 'Arial';
+        }
+       .signup {
+            width: 382px;
+            overflow: hidden;
+            margin: 20px auto;
+            padding: 80px;
+            background-color: goldenrod;
+            border-radius: 15px;
+        }
+
+        h2{
+            text-align: center;
+            color: black;
+            padding: 10px;
+        }
+
+        h1 {
+            text-align: center;
+            color: black;
+            padding: 20px;
+        }
+
+        label {
+            color:black;
+            font-size: 17px;
+        }
+
+        input[type="text"], input[type="email"], input[type="password"], input[type="button"] {
+            width: 300px;
+            height: 30px;
+            border: none;
+            border-radius: 3px;
+            padding-left: 8px;
+        }
+
+        input[type="button"] {
+            width: 300px;
+            height: 30px;
+            border: none;
+            border-radius: 17px;
+            padding-left: 7px;
+            color: black;
+        }
+
+        span {
+            color: rgb(29, 26, 26);
+            font-size: 17px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="signup">
+        <form id="SOLDIER REGISTRATION FORM" method="post" action="signup.php">
+            <img src="logo.png" width="150px" height="150px" style="display: block; margin: 0 auto;">
+            <h2>1ST CALVARY DIVISION</h2>
+            <h1>SOLDIER REGISTRATION FORM</h1>
+            
+            <label for="Full Name"><strong>Full Name:</strong></label><br>
+            <input type="text" name="fullname" id="fullname" required="required"><br><br>
+
+            <label for="gender"><b>Gender:</b></label>
+            <select id="gender" name="gender" required="required">
+            <option value="male">Male</option>
+            <option value="female">Female</option></select><br><br>
+
+            <label for="dob"><b>Date Of  Birth:</b></label>
+            <input type="date" name="date" id="date" placeholder="date of birth" required="required"><br><br>
+
+            <label for="Contact Information"><b>Contact Information(Address, Phone No):</b></label><br>
+            <input type="text" name="contact info" id="contact info" required="required"><br><br>
+
+            <label for="Social Security Number"><b>Social Security Number(SSN):</b></label><br>
+            <input type="text" name="social security number" id="social security number" required="required"><br><br>
+
+            <label for="profile"><b>Select Profile Picture:</b></label>
+            <input type="file" id="profile" required="required"><br><br>
+
+            <label for="Citizenship Status"><b>Citizenship Status:</b></label><br>
+            <input type="text" name="citizenship status" id="citizenship status" required="required"><br><br>
+
+            <label for="Educational History"><b>Educational History(High School,etc):</label></b></label>
+            <input type="text" name="educational history" id="educational history" required="required"><br><br>
+
+            <label for="Employment History"><b>Employment History:</label></b></label>
+            <input type="text" name="employment history" id="employment history" required="required"><br><br>
+
+            <label for="Medical History"><b>Medical History(Physical And Mental Health):</b></label>
+            <input type="text" name="Medical History" id="medical history" required="required"><br><br>
+
+            <label for="Criminal Record"><b>Criminal Record(if any):</label></b></label><br>
+            <input type="text" name="criminal record" id="criminal record" required="required"><br><br>
+
+            <label for="Family and Emergency Contacts:"><b>Family and Emergency Contacts:</b></label><br>
+            <input type="text" name="family and emergency contacts" id="family and emergency contacts" required="required"><br><br>
+
+            <label for="previous military service"><b>Previous Military Service(if applicable):</b></label>
+            <input type="text" name="previous military service" id="previous military service" required="required"><br><br>
+
+            <label for="Disability"><b>Disability(if any):</b></label>
+            <input type="text" name="Disability" id="Disability" required="required"><br><br>
+
+            <label for="profile"><b>Select Profile:</b></label>
+            <input type="file" id="profile" required="required"><br><br>
+
+            
+            <input type="button" name="sign" id="sign" value="Sign Up Here"><br><br>
+            <input type="checkbox" id="check">
+            <span>Remember me</span><br><br>
+            Already have an account? <a href="#">Log In</a><br>
+        </form>
+    </div>
+</body>
+</html>
